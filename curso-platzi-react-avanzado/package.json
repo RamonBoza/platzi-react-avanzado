@@ -12,7 +12,12 @@
     "webpack-dev-server": "^3.7.2",
     "wepack-cli": "^0.0.1-security"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6"
+  },
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",

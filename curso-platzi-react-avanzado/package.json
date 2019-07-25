@@ -29,6 +29,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "now-build": "npm run build",
     "lint": "standard",
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"

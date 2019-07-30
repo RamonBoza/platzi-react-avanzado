@@ -22,6 +22,8 @@ export const ListOfCategories = () => {
     }
 
     document.addEventListener('scroll', onScroll)
+
+    return () => document.removeEventListener('scroll', onScroll)
   })
 
   const renderList = (fixed) => (

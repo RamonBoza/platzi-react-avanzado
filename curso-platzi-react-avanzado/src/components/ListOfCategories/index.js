@@ -24,7 +24,7 @@ export const ListOfCategories = () => {
     document.addEventListener('scroll', onScroll)
 
     return () => document.removeEventListener('scroll', onScroll)
-  })
+  }, [showFixed])
 
   const renderList = (fixed) => (
     <List className={fixed ? 'fixed' : ''}>

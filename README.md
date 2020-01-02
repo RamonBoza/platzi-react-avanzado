@@ -13,6 +13,10 @@ from there we install some dependencies
 
 now building system
 
+    npm run dev
+
+Current servers where the system is deployed:
+
     api: https://petgram-server-boza.ramonboza.now.sh
     fe : https://petgram-boza.ramonboza.now.sh
     
